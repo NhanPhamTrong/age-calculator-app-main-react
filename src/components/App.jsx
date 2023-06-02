@@ -241,10 +241,12 @@ export const App = () => {
                     <h1><span>{result.day}</span> days</h1>
                 </div>
             </main>
-            <div className="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-                Coded by <a href="https://github.com/NhanPhamTrong">Nhan Pham</a>.
-            </div>
+            <footer>
+                <div className="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+                    Coded by <a href="https://github.com/NhanPhamTrong">Nhan Pham</a>.
+                </div>
+            </footer>
         </>
     )
 }
