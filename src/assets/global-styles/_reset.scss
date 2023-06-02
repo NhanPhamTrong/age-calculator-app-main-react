@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a, a:active {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+button, input[type="submit"] {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+input, button, textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ion-icon {
+    pointer-events: none;
+}

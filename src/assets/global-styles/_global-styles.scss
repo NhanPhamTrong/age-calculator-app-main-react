@@ -1,0 +1,32 @@
+@import "reset";
+@import "variables";
+@import "function";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: $background;
+
+    #root {
+        height: 100vh;
+        position: relative;
+
+        .attribution {
+            width: max-content;
+            font-size: 0.75rem;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {    
+        #root {    
+            .attribution {
+                font-size: 1rem;
+            }
+        }
+    }
+}

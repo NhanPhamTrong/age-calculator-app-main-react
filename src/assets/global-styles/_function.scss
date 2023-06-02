@@ -1,0 +1,59 @@
+@keyframes generalDashboardWorkload {
+    0% {
+        stroke-dashoffset: 502;
+    }
+
+    100% {
+        stroke-dashoffset: var(--dashOffset);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes verticalBar {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: var(--height);
+    }
+}
+
+@keyframes horizontalBar {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: var(--width);
+    }
+}
+
+@keyframes verticalBarWithNumber {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: calc(var(--height));
+    }
+}
+
+@keyframes horizontalBarWithNumber {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: calc(var(--width) - 1rem);
+    }
+}
